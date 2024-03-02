@@ -34,5 +34,7 @@ public class Healthtest {
             System.out.printf("Name: %s\nWeight: %.2f Height: %.2f\nAge: %d Gender: %c\nBMR= %.2f\nI nee %s",K.getName(),K.getWeight(),K.getHeight()
             ,K.getAge(),K.getGender(),K.calculateBMR(),uanmai);
         }
+        konthai[0].setValue("Guide",50,170,19,'B');
+        System.out.println(konthai[0].getName());
     }
 }
